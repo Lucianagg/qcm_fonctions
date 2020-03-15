@@ -233,3 +233,41 @@ function op(a) {
 	}
 	return ooo;
 }
+
+// You need to understand "ty" first
+function qs(a) {
+	let tluser = 1;
+	for(;tluser<a;tluser*=2);
+	return tluser;
+}
+
+function df(a,b) {
+	let result = 0;
+	for(let i = 0 ; i < a ; i++) {
+		for(let j = 0 ; j < b ; j++) {
+			result++;
+			i++;
+		}
+	}
+	return result;
+}
+
+function gh(a,b) {
+	return a&b;
+}
+
+function jk(a,b) {
+	return a|b;
+}
+
+function lm(a,b) {
+	return a^b;
+}
+
+function wx(a,b) {
+	return a<<b;
+}
+
+function cv(a,b) {
+	return a>>b;
+}
