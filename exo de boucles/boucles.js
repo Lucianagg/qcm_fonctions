@@ -48,9 +48,9 @@ for (let i=0; i<1; i++){
 
 //exercice 5
 
-for (let i=0; i<1; i++){
-        console.log("3");
-        console.log("4");
+for (let i=0; i<1; i++){      //  AUTRE METHODE for(let i=3; i<12; i++){         // for (let i=0 ; i<9), i++{
+        console.log("3");               //      console.log(i);                     console.log(i+3);
+        console.log("4");               //}
         console.log("5");
         console.log("6");
         console.log("7");
@@ -73,8 +73,34 @@ console.log("0");
 console.log("1");
 
 
+//exercice 7
+ 
+for (let i=0; i<1; i++){
+     console.log("0");
+     console.log("1");
+     console.log("2");
+     console.log("3");
+     console.log("4");
+    
+}
+
+for (let i=0; i<3; i++){
+      console.log("A");
+      
+}
+
+for (let i=0; i<1; i++){
+    console.log("8");
+    console.log("9");
+}
 
 
+
+// exercice 8
+
+for (let i=0; i<3; i++){
+
+}
 
 
 /*
