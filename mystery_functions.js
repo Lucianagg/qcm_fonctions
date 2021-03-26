@@ -2,7 +2,8 @@ function pikachu(a,b) {
 	let result = 0;
 	for(let i=0; i<a; i++) {
 		result += b;
-	}
+	} 
+	// result= result+b;
 	return result;
 }
 
@@ -53,23 +54,39 @@ function bob(a,b,c) {
 	for(let i=0; i<a; i++) {
 		for(let j=0; j<b; j++) {
 			for(let k=0; k<c; k++) {
-				result += 1;
-			}
+				result += 1;  //result (42)= result +1
+				                //43   
+			} 
 		}
 	}
 	return result;
 }
 
-function calcul(a) {
-	let result=1;
+function calcul(a) {                          
+	let result=1;             
 	for(let i=2; i<=a; i++) {
-		result *= i;
+		result *= i; //result = result *i 
 	}
 	return result;
 }
 
+// Exemple ici a = 6 , le resultat est = 1 , i=2  
+// On fait résultat * i donc 1*2 = 2,  
+//le résultat est = à 2 maintenant
+
+// i va passer à 3 (a chaque fois on lui ajoute une valeur)
+// maintenant on fais le résulat * i donc 
+// 2*3= 6 , maintenant le résultat est =6 , i va passer à 4
+//6*4= 24 , le résulat c 24 , i va passer à 5 
+//24*5= 120 , le résulat c 120 i va passer à 6 
+// 120*6= 720
+//on peut plus continuer car i va passer à 7 et i sera plus grand que a donc le résultat sera faux donc le résultat sera 720
+
+
+
+
 function python(a) {
-	let result;
+	let result;  
 	if(a<2) {
 		result = 1;
 	} else {
@@ -78,19 +95,18 @@ function python(a) {
 	return result;
 }
 
-function erogahtyp(a) {
-	let result;
+function erogahtyp(a) {   //Quand t'as un % ce qu'on va demandé à l'ordi c'est le reste de la division des 2 nombres exemple:       
+	let result;            //4%2=2 donc le reste 0
 	if(a%2 == 0) {
-		result = a/2;
+		result = a/2;      //donc on va utiliser ce résultat là
 	}
 	else {
-		result = 3*a+1;
+		result = 3*a+1;     // exemple on fait 3*5 +1+16 ici on ne pouvait pas utiliser le modulo car le reste était pas à =0 
 	}
 	return result;
 }
 
-function pythagore(a,b) {
-	let result = a;
+function pythagore(a,b) { 
 	for(let i=0; i<b; i++) {
 		result=erogahtyp(result);
 	}
