@@ -89,19 +89,19 @@
 // }
  //Autre méthode:
 
-for (let i=0; i<10; i++) {
-    console.log(i%4);
-    console.log(0%4);
-    console.log(1%4);
-    console.log(2%4);
-    console.log(3%4);
-    console.log(4%4);
-    console.log(5%4);
-    console.log(6%4);
-    console.log(7%4);
-    console.log(8%4);
-    console.log(9%4);
-}
+// for (let i=0; i<10; i++) {
+//     console.log(i%4);
+//     console.log(0%4);
+//     console.log(1%4);
+//     console.log(2%4);
+//     console.log(3%4);
+//     console.log(4%4);
+//     console.log(5%4);
+//     console.log(6%4);
+//     console.log(7%4);
+//     console.log(8%4);
+//     console.log(9%4);
+// }
 
 
 
