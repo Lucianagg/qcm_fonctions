@@ -1,0 +1,19 @@
+Qu'est ce qu'une variable? C est une lettre qui représente une valeur qui peur changer au cours de l'algorithme
+(Une variable c'est une boîte qui contient une valeur.Cette case a un nom, que l'on utilise pour parler d'elle)
+
+A quoi ça sert ? A stocker une information au cours d'un programme 
+
+Qu'est ce qu'une boucle? Une boucle c'est un processus qui se répète plusieurs fois . Exemple : for (let i=0; i<3. I++){
+
+}
+ exemple 
+ riri =24 , a gauche nom de la variable a droite la valeur 
+
+
+LORSQUE L ON CREER UNE VARIABLE ON FAIT UNE DECLARATION ET LORSQUE L ON LUI DONNE UNE VALEUR ON PARLE D'AFFECTATION 
+exemple 
+score =350
+J ai crée une variable qui s apppelle score et je lui ai attribuer une valeur de 350
+
+console.log c est une fonction 
+function en train de créer une machine 
