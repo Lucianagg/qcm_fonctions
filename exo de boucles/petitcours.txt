@@ -1,0 +1,78 @@
+Récap écrit des fonctions :
+Une fonction est une "boîte noire", une "machine" dont le but est de faire une tâche particulière (par exemple, faire un calcul compliqué, ou afficher quelque chose sur l'écran). Les fonctions ont un nom (pour l'instant ) que l'on va utiliser pour les désigner.
+En js, on va appeler (=utiliser, démarrer) une fonction de cette façon là :
+nomDeLaFonction()
+
+Les parenthèses sont importantes, même s'il n'y a rien dedans ! Elles veulent dire "je démarre la fonction".
+
+Certaines fonctions ont besoin d'informations supplémentaires pour travailler. C'est le cas de forward que l'on a utilisée pour faire avancer la tortue. Il fallait lui préciser de combien de pixels faire avancer la tortue.
+En js, on va écrire ces informations dans les parenthèses, séparées par des virgules.
+Exemples :
+forward(100);
+arcLeft(100,90);
+
+
+Certaines fonctions peuvent donner un résultat en retour. On dit que la fonction retourne une valeur. C'était le cas de la fonction pikachu, par exemple. Quand on écrit pikachu(2,4), l'ordinateur appele la fonction pikachu, en lui donnant les valeurs 2 et 4, et celle-ci lui donne le résultat, 8.
+Ce résultat peut ensuite être utilisé comme une valeur "normale" : on peut le stocker dans une variable, faire un calcul avec, ou ce que l'on veut.
+C'est comme quand on écrit 1+2. "Ça" va faire un calcul, et nous donner le résultat. Libre à nous de stocker le résultat dans une variable (let a = 1+2;), de l'afficher dans la console (console.log(1+2)), ou de faire un autre calcul avec (1+2 + 5). Même principe avec le retour d'une fonction :
+let a = pikachu(2,4);
+console.log(pikachu(2,4));
+pikachu(2,4) + 5
+[16:05]
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Point de vue externe / utilisation des fonctions
+
+================================================
+
+Point de vue interne / création  des   fonctions
+
+vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+(modifié)
+[16:05]
+Pour créer une fonction (créer une machine), le mot-clé que l'on va utiliser en js est function.
+function fTest() {
+}
+// Ici, on crée une fonction qui s'appelle "fTest" 
+
+Dans les accolades de la fonction, on va écrire le code qui devra être exécuté quand la fonction sera appelée.
+Exemple (en complétant le code précédent) :
+function fTest() {
+    console.log("Bonjour");
+}
+
+En faisant ça, je viens de créer une machine dont le but est d'écrire "Bonjour" dans la console.
+
+Lorsque la fonction s'attend à recevoir des informations supplémentaires, on va l'indiquer dans les parenthèses de la fonction :
+function fTest2(n) {
+}
+// Quand j'écris ce n dans les parenthèses, l'ordinateur va le traduire en : "Quand la fonction sera utilisée, je créerai une variable que j'appelerai 'n', et je stockerai dedans la première information que l'on m'a donnée."
+
+Si l'on souhaite écrire une fonction qui reçoit plusieurs informations, il suffit de séparer les noms des variables pour les stocker par des virgules.
+Exemple :
+function pikachu(a,b) {
+    // ....
+}
+
+
+Lorsque le but de la fonction est de donner un résultat, de répondre à une question (autrement dit, lorsque qu'elle doit communiquer un résultat en retour), le mot-clé à utiliser en js sera return.
+Exemple :
+function fTest3() {
+    return 25;
+}
+// Cette fonction retourne 25. C'est un générateur à 25. Je ne sais pas trop à quoi ça sert, mais ça génère des 25, et ça le fait bien !
+
+
+Un exemple un peu moins trivial :
+function calculComplique(n) {
+    let monResultat = 0;
+    for(let i = 1 ; i < n ; i++) {
+        monResultat += i;
+    }
+    return monResultat;
+}
+
+// Exemple d'utilisation :
+console.log(calculComplique(100)); // 5050
+
+Envoyer un message à #algo
