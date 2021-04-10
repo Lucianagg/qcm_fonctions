@@ -53,6 +53,10 @@
 
 // Écrire une fonction f9 qui prend un nombre et un mot en entrée, et qui affiche dans la console ce mot ce nombre de fois.
 
+
+
+//EXERCICE
+
 function f1(){
     console.log(17);
 }
