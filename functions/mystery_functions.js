@@ -116,7 +116,7 @@ function pythagore(a,b) {
 function aceeilnrtt(a) {
 	let result = 0;
 	let v = a;
-	while(v != 1) {
+	while(v != 1) {    // est ce que v est différent de 1 ? Vraie 
 		v = erogahtyp(v);
 		result++;
 	}
@@ -125,7 +125,7 @@ function aceeilnrtt(a) {
 
 function micmath(a,b) {
 	let result=0;
-	while(a>=b) {
+	while(a>=b) { // while ça veut dire tant que 
 		a/=b;
 		result++;
 	}

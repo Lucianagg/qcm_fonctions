@@ -88,15 +88,6 @@ console.log(f4);
 
 
 
-
-
-
-
-
-
-
-
-
 // IMPORTANT
 // console.log (f2());
 
